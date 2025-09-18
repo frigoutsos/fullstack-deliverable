@@ -1,0 +1,76 @@
+.dashboard {	
+	width: 100%;
+	height: 100vh;
+	
+	padding: 30px;
+	overflow: auto;
+
+	/* We want a flexbox  */
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	width: 100vw;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+
+	padding: 24px;
+	margin: 12px;
+}
+
+.greeting {
+	/* Put the greeting all the way on the top left */
+	position: absolute;
+	top: 60px;
+	left: 0px;
+
+	padding: 24px;
+	margin: 12px;
+}
+
+.logoutButton {
+	color: white;
+	font-size: 14px;
+
+	background-color: red;
+	
+	/* Put the logout button all the way on the bottom right */
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	
+	border: none;
+	padding: 12px 24px;
+	margin: 24px;
+	border-radius: 5px;
+
+	text-align: center;
+}
+
+.colorPicker {
+	/* Put color picker all the way on the bottom left */
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+	border: none;
+	padding: 24px 24px;
+	margin: 12px;
+}
+
+.colorPickerLabel {
+	/* Customizations for the label above the color picker */
+	background-color: white;
+	color: black;
+
+	margin: 1px;
+	padding: 1px;
+	border: 1px;
+
+	border-radius: 5px;
+
+	text-align: center;
+}
