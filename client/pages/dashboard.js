@@ -74,6 +74,7 @@ export default function DashboardPage() {
       const{ status, data } = await updateColor(token, newColor);
       if ( status !== 200) {
         console.error("Failed to push color to server:", status, data);
+      } else {
       }
     } catch (err) {
       console.error("PUT error:", err);
