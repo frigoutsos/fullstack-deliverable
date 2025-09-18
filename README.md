@@ -3,3 +3,4 @@
 Franklin Rigoutsos
 
 The .env.template files contain example setups for .env without API keys
+
